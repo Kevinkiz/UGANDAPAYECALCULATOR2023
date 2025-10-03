@@ -1,20 +1,21 @@
 {
-  "version": 1,
-  "metadata": {
-    "primary_r": "index.R",
-    "title": "Uganda PAYE Calculator",
-    "author": "Kevin Kizito",
-    "description": "A Shiny app to calculate PAYE, NSSF, and Gross Pay in Uganda",
-    "appmode": "shiny"
+  "title": "Uganda PAYE Calculator",
+  "description": "Shiny web app to calculate PAYE, NSSF, and gross pay for Uganda employees",
+  "type": "Shiny",
+  "packageManager": "renv",
+  "packages": [
+    "shiny",
+    "leaflet"
+  ],
+  "launch": {
+    "primary": "index.R"
   },
-  "platform": {
-    "R_version": "4.3.1"
-  },
-  "packages": {
-    "shiny": {},
-    "leaflet": {}
-  },
-  "files": [
-    "index.R"
-  ]
+  "authors": [
+    {
+      "name": "Kevin Kizito",
+      "email": "kevinkizito13@yahoo.com"
+    }
+  ],
+  "version": "1.0.0"
 }
+
