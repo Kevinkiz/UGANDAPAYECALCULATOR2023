@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "metadata": {
+    "appmode": "shiny",
+    "primary_r": "index.R",
+    "content_category": "application"
+  },
+  "locale": "en_US",
+  "platform": {
+    "R_version": "4.4.0"
+  },
+  "packages": {
+    "shiny": {"version": "1.9.1"},
+    "leaflet": {"version": "2.2.2"}
+  },
+  "files": ["index.R"]
+}
